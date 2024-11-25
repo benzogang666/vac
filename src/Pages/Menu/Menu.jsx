@@ -33,7 +33,7 @@ const Menu = () => {
 
   return (
     <>
-      <NavLink to="/search" className="search-field">Поиск</NavLink>
+      <NavLink to="/vac/search" className="search-field">Поиск</NavLink>
 
       <Navigational
         navigational={nutrition.navigational}
