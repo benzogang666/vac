@@ -1,0 +1,29 @@
+.navigational {
+  display: grid;
+  grid-auto-columns: 90px;
+  grid-auto-rows: 90px;
+  grid-auto-flow: column;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.navigation {
+  cursor: pointer;
+  margin: 10px; 
+  background: #ffce72;
+  border-radius: 100px;
+}
+
+.cart-navigation {
+  cursor: pointer;
+  padding: 5px 20px;
+  background: #ffce72;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 30px #ffce72;
+  z-index: 666;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}

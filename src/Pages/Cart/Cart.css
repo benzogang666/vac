@@ -1,0 +1,23 @@
+.cart-back {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffdc42;
+}
+
+.cart-hollow {
+  margin: 0 auto;
+}
+
+.cart-total {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffdc42;
+  position: absolute;
+  bottom: 0;
+}

@@ -1,0 +1,34 @@
+.search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-field {
+  width: 95%;
+  height: 30px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+}
+
+.results {
+  width: 95%;
+}
+
+.result-card {
+  padding: 10px 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  background: #ffcf61cc;
+}
+
+.result-card-add {
+  cursor: pointer;
+  padding: 0px 10px;
+}
