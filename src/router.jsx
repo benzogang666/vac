@@ -8,19 +8,19 @@ import Search from "./Pages/Search/Search";
 
 const router = createBrowserRouter([
   {
-    path: "/start",
+    path: "/vac/start",
     element: <Start />,
   },
   {
-    path: "/",
+    path: "/vac/",
     element: <Menu />,
   },
   {
-    path: "/cart",
+    path: "/vac/cart",
     element: <Cart />,
   },
   {
-    path: "/search",
+    path: "/vac/search",
     element: <Search />,
   },
 ]);
