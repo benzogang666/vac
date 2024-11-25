@@ -16,7 +16,7 @@ const Navigational = ({ navigational, snap }) => {
             {line.navigation}
           </div>
         ))}
-        <NavLink to="/cart" className="cart-navigation">
+        <NavLink to="/vac/cart" className="cart-navigation">
           {getTotalPrice()}
         </NavLink>
       </div>
