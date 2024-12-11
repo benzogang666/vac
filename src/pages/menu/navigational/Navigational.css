@@ -1,0 +1,36 @@
+.navigational {
+  display: grid;
+  align-items: center;
+  justify-content: start;
+  grid-auto-flow: column;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.navigation {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 100%;
+}
+
+.search-navigate {
+  color: #000;
+  font-size: 16px;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.cart-navigate {
+  color: #fff;
+  padding: 5px 20px;
+  background: #000;
+  border-radius: 100px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}

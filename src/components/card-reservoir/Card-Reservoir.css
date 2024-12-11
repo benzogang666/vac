@@ -1,0 +1,59 @@
+.card-reservoir {
+  margin: 10px;
+  display: grid;
+  gap: 15px;
+  grid-auto-columns: 100px auto;
+  grid-auto-rows: 100px;
+  grid-auto-flow: column;
+}
+
+.reservoir-image {
+  border: 1px solid #000;
+}
+
+.reservoir-data {
+  display: grid;
+  align-content: space-between;
+  grid-auto-rows: 20px 35px 25px;
+}
+
+.reservoir-name {
+  font-size: 17px;
+  overflow: hidden;
+}
+
+.reservoir-detials {
+  font-size: 14px;
+  width: 90%;
+  overflow: hidden;
+}
+
+.reservoir-expense {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reservoir-price {
+  color: #fff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  background: #000;
+  border-radius: 100px;
+}
+
+.reservoir-score {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 100px;
+}
+
+.reservoir-score-button {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  background: #bfbfbf;
+  border-radius: 100px;
+}

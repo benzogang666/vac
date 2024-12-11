@@ -1,0 +1,26 @@
+.checklist {
+  height: 100vh;
+  display: grid;
+  align-content: space-between;
+}
+
+.card-checklist {
+  color: #000;
+  margin: 10px;
+  padding: 5px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-auto-columns: auto 50px 50px 50px;
+  grid-auto-flow: column;
+}
+
+.card-checklist:nth-child(even) {
+  background: #bfbfbf;
+}
+
+.total-checklist {
+  color: #fff;
+  padding: 10px;
+  background: #000;
+}

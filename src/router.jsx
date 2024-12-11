@@ -1,27 +1,45 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import Start from "./Pages/Start/Start";
+import Start from "./pages/start/Start";
 
-import Menu from "./Pages/Menu/Menu";
-import Cart from "./Pages/Cart/Cart";
-import Search from "./Pages/Search/Search";
+import Menu from "./pages/menu/Menu";
+import Reservoir from "./pages/menu/reservoir/Reservoir";
+
+import Cart from "./pages/cart/Cart";
+import CheckList from "./pages/cart/checklist/CheckList";
+
+import Search from "./pages/search/Search";
 
 const router = createBrowserRouter([
   {
-    path: "/vac/start",
+    path: "/start",
     element: <Start />,
   },
   {
-    path: "/vac/",
+    path: "/search",
+    element: <Search />,
+  },
+  {
+    path: "/menu",
     element: <Menu />,
   },
   {
-    path: "/vac/cart",
+    path: "/menu/:category",
+    element: <Menu />,
+    children: [
+      {
+        path: ":subcategory",
+        element: <Reservoir />,
+      },
+    ],
+  },
+  {
+    path: "/cart",
     element: <Cart />,
   },
   {
-    path: "/vac/search",
-    element: <Search />,
+    path: "checklist",
+    element: <CheckList />,
   },
 ]);
 

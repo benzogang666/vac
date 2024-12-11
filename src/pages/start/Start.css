@@ -1,0 +1,78 @@
+.author {
+  color: #fff;
+  padding: 2px 10px;
+  background: #000;
+  border-radius: 15px 15px 0 0;
+  transform: translate(-50%);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.header-image {
+  height: 150px;
+  background: #000;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../../assets//logo.png");
+}
+
+.header-appellation {
+  font-size: 30px;
+  height: 70px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-link {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-menu {
+  color: #fff;
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  background: #000;
+  border-radius: 100px;
+}
+
+.contacts {
+  display: grid;
+}
+
+.contact {
+  margin: 10px;
+}
+
+.networks {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.network {
+  color: #fff;
+  margin: 10px;
+  padding: 10px 25px;
+  background: #000;
+  border-radius: 100px;
+}
+
+.responses {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.response {
+  color: #fff;
+  margin: 10px;
+  padding: 10px 25px;
+  background: #000;
+  border-radius: 100px;
+}
